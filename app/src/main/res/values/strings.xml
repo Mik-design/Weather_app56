@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather_app56</string>
+    <string name="bishkek">Бишкек</string>
+    <string name="refresh">Обновить</string>
+    <string name="humidity">Влажность</string>
+    <string name="sunset">Восход</string>
+    <string name="sunrise">Закат</string>
+    <string name="feels_like">Чувствуется как</string>
+</resources>
