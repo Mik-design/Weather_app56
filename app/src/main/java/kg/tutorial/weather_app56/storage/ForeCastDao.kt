@@ -26,4 +26,9 @@ interface ForeCastDao {
     @Query("select * from ForeCast where id = :id")
     fun getById(id: Long): Single<ForeCast>
 
+/*
+    @Query("select * from ForeCast")
+    fun deleteAll(): Completable
+*/
+
 }

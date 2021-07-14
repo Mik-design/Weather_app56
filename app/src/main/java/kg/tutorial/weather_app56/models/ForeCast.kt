@@ -57,6 +57,7 @@ data class DailyForeCast(
     var probability: Double? = null,
     var temp: Double? = null,
     var weather: List<Weather>? =null
+  
 
 )
 
