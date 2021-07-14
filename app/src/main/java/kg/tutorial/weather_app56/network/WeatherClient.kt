@@ -26,6 +26,7 @@ object WeatherClient {
             .client(httpClient)
             .build()
     }
+
     val weatherApi by lazy {
         retrofit.create(WeatherApi::class.java)
     }

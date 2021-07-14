@@ -15,7 +15,7 @@
 
     <ConstraintSet  android:id="@+id/start"/>
 
-    <ConstraintSet android:id="@+id/end">
+    <ConstraintSet>
         <Constraint
             android:id="@+id/el_container"
             android:visibility="gone"/>

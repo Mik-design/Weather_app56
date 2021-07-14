@@ -46,7 +46,7 @@
 
     <style name="WhiteSmallTextWithWaterIcon" parent="WhiteText">
         <item name="android:textSize">12sp</item>
-        <item name="drawableEndCompat">@drawable/drop_water</item>
+        <item name="drawableEndCompat">@drawable/water</item>
     </style>
 
     <style name="WhiteMediumLargeTextWithWaterIcon" parent="WhiteTextWithIcon">

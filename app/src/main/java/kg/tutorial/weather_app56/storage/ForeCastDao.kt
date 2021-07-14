@@ -20,15 +20,10 @@ interface ForeCastDao {
     @Delete
     fun delete(forecast: ForeCast): Completable
 
-    @Query("select*from ForeCast")
+    @Query("select * from ForeCast")
     fun getAll(): LiveData<ForeCast>
 
-
-    @Query("select*from ForeCast where id = id")
-    fun getById(Id: Long): Single <ForeCast>
-
-    @Query("select*from ForeCast")
-    fun deleteAll(): Completable
-
+    @Query("select * from ForeCast where id = :id")
+    fun getById(id: Long): Single<ForeCast>
 
 }

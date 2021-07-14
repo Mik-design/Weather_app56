@@ -7,10 +7,10 @@ import com.google.gson.annotations.SerializedName
 
 @Entity
 data class ForeCast(
+    @PrimaryKey
     val id: Long? = null,
     var lat: Double? = null,
     var lon: Double? = null,
-    @PrimaryKey
     var timezone: String,
     var timezone_offset: Long? = 0L,
     var current: CurrentForeCast? = null,
