@@ -14,8 +14,8 @@ data class ForeCast(
     var timezone: String,
     var timezone_offset: Long? = 0L,
     var current: CurrentForeCast? = null,
-    var hourly: List<HourlyForeCast>? = null,
-    var daily: List<DailyForeCast>? = null
+    var hourly: List<HourlyForeCast>,
+    var daily: List<DailyForeCast>
 )
 //{
 //    override fun toString(): String {

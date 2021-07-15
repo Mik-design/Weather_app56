@@ -5,5 +5,5 @@
     <string name="humidity">Влажность</string>
     <string name="sunset">Восход</string>
     <string name="sunrise">Закат</string>
-    <string name="feels_like">Чувствуется как</string>
+    <string name="feels_like">Чувствуется как ℃ </string>
 </resources>
